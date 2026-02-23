@@ -4,7 +4,17 @@
     Estrutura inicial do projeto:   Pastas: Clientes/Veterinários/Produtos/Tratamento'''
     
     
-
+erDiagram
+    CLIENTE ||--o{ ANIMAL : possui
+    ANIMAL||--o{ ATENDENTE : recebe
+    ATENDENTE ||--o{ VENDA : realiza
+    VENDA ||--o{ PRODUTO : tipo
+    VENDA ||--o{ SERVIÇO : tipo 
+    SERVIÇO ||--|{ VETERINARIO : atende
+    SERVIÇO ||--|{ TOSADOR : atende
+    VETERINARIO ||--o{ CLIENTE : vira
+    ATENDENTE ||--o{ CLIENTE : vira
+    TOSADOR ||--o{ CLIENTE : vira
     TOSADOR{
         string id
         string nome
