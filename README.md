@@ -55,3 +55,7 @@ erDiagram
         float preço
         int quantidade
     }
+
+<img width="4063" height="7573" alt="Client-Driven Animal Care-2026-02-23-231444" src="https://github.com/user-attachments/assets/8ac18107-d976-46ed-b507-a57218dedc32" />
+
+    
